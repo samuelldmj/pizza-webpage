@@ -1,0 +1,344 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.bodi {
+    width: 100%;
+    background: linear-gradient( rgba(10, 20, 2, 0), rgba(22, 1, 1, 0)), url(pizzabg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navi {
+    height: 70px;
+    width: 100%;
+    background: whitesmoke;
+    /* position: sticky;
+    top: 0px;
+    z-index: 10000; */
+}
+
+.div_con {
+    display: block;
+    border: 2px transparent black;
+    width: 90%;
+    height: 70px;
+    line-height: 50px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.a1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier;
+    color: tomato;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.ul1 {
+    float: right;
+    list-style: none;
+    text-align: center;
+}
+
+.btn{
+    padding: 2px 15px;
+    color: whitesmoke;
+    text-decoration: none;
+    background: tomato;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Courier New', Courier; 
+    border: 1px solid whitesmoke;
+    margin-right: 50px; 
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.ftr {
+    background: whitesmoke;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bolder;
+    /* margin-bottom: 10px; */
+}
+
+.sec1 {
+    background: line;
+    width: 100%;
+}
+
+.head3 {
+    text-align: center;
+    color: rgb(202, 40, 11);
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div_card {
+    width: 500px;
+    height: 560px;  
+    padding: 20px;
+    box-shadow: rgb(229, 252, 227);
+    margin: 15px auto;
+    background: whitesmoke;
+    box-sizing: border-box;
+
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 16px 0px;
+    /* box-sizing: border-box; */
+    border: 0.5px solid #888787;
+    border-radius: 4px
+}
+
+.sel{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    /* box-sizing: border-box; */
+    border: 0.5px solid #797979;
+    border-radius: 4px
+}
+
+.div_sub{
+    width: 100%;
+}
+
+.sub{
+    padding: 10px 20px;
+    border: 1px solid tomato;
+    color: whitesmoke;
+    background: tomato;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+}
+
+.err {
+    color: rgb(233, 9, 9) !important;
+    font-family: fantasy;
+}
+
+.hay3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(253, 45, 8) ;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center; 
+}  
+
+.div_card2 {
+  width: 400px;
+  height: 250px;  
+  padding: 50px;
+  box-shadow: rgb(229, 252, 227);
+  margin: 50px 20px;
+  background: whitesmoke;
+  text-align: center;
+}
+
+.link_div {
+    padding: 10px;
+    text-align: right;
+}
+
+.a_link {
+    font-size: 20px;
+    font-family: 'Courier New', Courier;
+    color: tomato;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform:uppercase;
+    display: inline-block;
+    padding: 5px 5px;   
+}
+/* 
+.pizhead {
+    width: 150px;
+    margin-top: -50px;
+} */
+
+
+/* ====================================================================================================================
+                                                    MEDIA QUERY
+==================================================================================================================== */
+
+@media (max-width: 1066px) {
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    .navi {
+        height: 70px;
+        width: 100%;
+        background: whitesmoke;
+        /* position: sticky;
+        top: 0px;
+        z-index: 10000; */
+    }
+    
+    .div_con {
+        /* display: block; */
+        border: 2px transparent black;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .a1 {
+        font-size: 2.5em;
+        font-family: 'Courier New', Courier;
+        color: tomato;
+        font-weight: bolder;
+        text-decoration: none;
+        text-transform: capitalize;
+        /* display: inline-block; */
+        padding: 2px 2px;
+        margin-left: 15px;
+       line-height: 40px;
+    }
+
+}
+
+
+
+@media (max-width: 858px)
+{
+
+    .btn{
+        padding: 2px 3px;
+        color: whitesmoke;
+        text-decoration: none;
+        background: tomato;
+        text-transform: capitalize;
+        font-size: 1.5em;
+        font-family: 'Courier New', Courier; 
+        border: 1px solid whitesmoke; 
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+    .bodi {
+        background: #cccccc;
+    }
+
+    .hay3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: tomato ;
+        font-size: 2em;
+        text-transform: capitalize;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .div_card {
+        width: 300px;
+        height: 560px;  
+        padding: 20px;
+        box-shadow: rgb(229, 252, 227);
+        margin: 15px auto;
+        background: whitesmoke;
+        box-sizing: border-box;
+    
+    }
+
+      .container {
+        width: 100%;
+        height: 500px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly; 
+    }  
+    
+    .div_card2 {
+      width: 300px;
+      height: 250px;  
+      padding: 50px;
+      box-shadow: rgb(229, 252, 227);
+      margin: 50px 20px;
+      background: whitesmoke;
+      text-align: center;
+    }
+}
+
+@media (max-width: 854px)
+{
+
+    .navi {
+        height: 70px;
+        width: 100%;
+        background: whitesmoke;
+        /* position: sticky;
+        top: 0px;
+        z-index: 10000; */
+    }
+    
+    .div_con {
+        /* display: block; */
+        border: 2px transparent black;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        margin: auto;
+        box-sizing: border-box;
+    }
+
+    .btn{
+        padding: 2px 3px;
+        color: whitesmoke;
+        text-decoration: none;
+        background: tomato;
+        text-transform: capitalize;
+        font-size: 1em;
+        font-family: 'Courier New', Courier; 
+        border: 1px solid whitesmoke; 
+        margin-top: 8px;
+        display: inline-block;
+    }
+
+
+    .ftr {
+        background: whitesmoke;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bolder;
+        bottom: 0px;
+    }
+
+}
+
+
